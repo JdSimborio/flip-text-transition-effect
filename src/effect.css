@@ -1,0 +1,20 @@
+.ds-flip-container{
+    width: 200px;
+    height: 100px;
+    overflow: hidden;
+    border: 2px solid #000;
+    position: relative;
+}
+
+/* .ds-flip > *{
+    transition: all 1s ease-in-out; 
+    margin: 0;
+    padding: 0;
+} */
+
+.ds-flip > * {
+    margin: 0;
+    padding: 0;
+    margin-inline: 0;
+    padding-inline: 0;
+}

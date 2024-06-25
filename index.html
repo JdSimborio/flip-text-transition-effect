@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Flip Text Transition Effect</title>
+        <link rel="stylesheet" type="text/css" href="src/effect.css">
+        <script src="src/effect.js"></script>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content="Flip Text Transition Effect">
+        <script>
+            window.addEventListener('load', function() {
+                const effect = new DSFlipEffect('.ds-flip-container', '.ds-flip', 1000, 1000, 2);
+            });
+        </script>
+    </head>
+    <body>
+        <div class="ds-flip-container">
+            <div class="ds-flip">
+                <h3>This is the first text</h3>
+                <h3>This is the second text</h3>
+                <h3>This is the third text</h3>
+            </div>
+        </div>
+    </body>
+</html>
+
